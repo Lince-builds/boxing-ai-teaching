@@ -1,0 +1,19 @@
+{
+  "synthetic": true,
+  "period": {"start": "2026-09-01", "end_exclusive": "2026-09-08", "timezone": "Asia/Shanghai", "label": "2026-09-01 至 2026-09-07"},
+  "members": ["M-A", "M-B", "M-C", "M-D"],
+  "sessions": [
+    {"id":"S01","member_id":"M-A","date":"2026-09-01","status":"completed"},
+    {"id":"S02","member_id":"M-B","date":"2026-09-02","status":"completed"},
+    {"id":"S03","member_id":"M-A","date":"2026-09-03","status":"completed"},
+    {"id":"S04","member_id":"M-C","date":"2026-09-05","status":"completed"},
+    {"id":"S05","member_id":"M-B","date":"2026-09-06","status":"cancelled"},
+    {"id":"S06","member_id":"M-D","date":"2026-09-07","status":"cancelled"},
+    {"id":"S07","member_id":"M-D","date":"2026-09-08","status":"completed"}
+  ],
+  "orders": [
+    {"id":"O01","date":"2026-09-01","amount_yuan":600},
+    {"id":"O02","date":"2026-09-04","amount_yuan":900},
+    {"id":"O03","date":"2026-08-31","amount_yuan":100}
+  ]
+}
