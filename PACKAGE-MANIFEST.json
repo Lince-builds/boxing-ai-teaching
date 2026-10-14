@@ -1,0 +1,26 @@
+{
+  "version": "ep07-teaching-1.0-public",
+  "date": "2026-10-14",
+  "source_commit": "f87d5d4c2d2d3654872a5ade550c1307939134b1",
+  "scope": "第七期公开教学源码；不是原客户源码；应用文件沿用已验收版本",
+  "files": {
+    "app.py": "21fc097a595445eaedbc57c26e4541eae57f6206dbefeaf9c3419b886e2745a6",
+    "run_with_model.py": "f0f8a27092a2e117cf5845af8546edef78d35ea5ef3ba2e0391b456f656e412d",
+    "index.html": "5d7a0ff73d5523e7b2d78da13b5bd4839464d7c1c08f1549c114e9b7ef548baa",
+    "test_sample.py": "21adfbc05b7a77bb9a7f0aabdb2a3fe0628c5c808ac8cbfb71a691f062f50834",
+    "README.md": "b6190207980c8bf679cd60b4d9511b6b6e8e8c2f8abfd26cddb7c3d9949ca11d",
+    "DEPENDENCIES.md": "d4484560e1103e1306bf2adb26c535d536cce54a76f39cb03fb1cedb16e42798",
+    ".env.example": "7db0a0c3694f392dff08c3dc69d395ebd4ab17bf2a7ee305240378fd31ab1102",
+    ".gitignore": "dad4ece4117175d6664fab0476ffbdcdfd2d571e442b0eb62452e0145065c8d5",
+    "fixtures/report.json": "a1c20a13f4ea38f09b677b3775af1907155c6345082ce1264f0c75910669acb7",
+    "docs/需求与阶段提示.md": "52040d397345416a7e2d20322550be8d2bd38605930ee0179109dd6c2b0ded67",
+    "docs/验收步骤.md": "ba59cbfb1b408ef5d69b3628862e2f75ebf1b2009c76cfea3ddd8e9fc18114e1"
+  },
+  "excluded": [
+    "data/",
+    ".git/",
+    "__pycache__/",
+    "个人配置、凭证、客户源码和运行日志"
+  ],
+  "license_status": "公开教学源码；未附加开源许可证"
+}
